@@ -62,6 +62,6 @@ public class Change
             else penny = paidPenny - pricePenny;
             rub = paidRub - priceRub;
             if(rub<0) System.out.println("Вам не хватило денег для оплаты");
-            else System.out.println("Ваша сдача "+rub+" рублей "+penny + " копеек");
+            else System.out.println("Ваша сдача "+rub+" руб "+penny + " коп");
         }
 }
